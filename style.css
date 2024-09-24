@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
 body{
     background-color:aliceblue;
     margin: 0px;
@@ -15,6 +17,9 @@ h1{
     color: rgb(245, 245, 30);
     font-size: 3em;
     letter-spacing: 2px;
+    text-shadow: 2px 2px 0.5em #000;
+    font-family: "Sofadi One", system-ui;
+    font-style: italic;
 }
 
 .lateral{
@@ -30,10 +35,26 @@ h1{
     margin: 0px;
 }
 
+.lateral img {
+    height: 70px;
+    width: 110px;
+}
+
 .navigation{
     background-color: rgb(252, 43, 43);
     
 }
+
+.navigation img {
+    height: 90px;
+    width: 90px;
+    float: left;
+
+}
+
+
+
+
 
 ul{
     margin: 0px;
@@ -88,10 +109,20 @@ border: 2px solid black;
     padding-left: 10px;
 }
 
+.carte img {
+    height: 100px;
+    width: 100px;
+}
+
 .carte1{
     width: auto;
     margin-left: 10px;
     padding-left: 10px;
+}
+
+.carte1 img {
+    height: 100px;
+    width: 100px;
 }
 
 /* FIN DE LA PAGE PRODUIT */
@@ -150,3 +181,4 @@ footer{
     justify-content: left;
     margin-left: 2%;
 }
+
